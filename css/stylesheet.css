@@ -16,6 +16,7 @@ a:hover {
 	color: #B1B1B1;
 	border-bottom: 2px solid #FFA218;
 	transition-duration: .3s;
+	cursor: pointer;
 }
 p, li {
 	font-size: 1em;
@@ -100,7 +101,7 @@ nav ul.submenu {
 	transition-duration: .3s;
 }
 .submenu li a {
-	padding: 5px 0px 0px 5px;
+	padding: 5px 0px 10px 5px;
 	height: 25px;
 	display: block;
 }
@@ -190,4 +191,13 @@ section.absolute.jumbotron {
 .absolute {
 	position: absolute;
 	z-index: 1;
+}
+
+
+footer {
+	text-align: center;
+}
+footer hr {
+	width: 90%;
+	border: 1px solid #00B3F4;
 }
