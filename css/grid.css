@@ -11,8 +11,7 @@ body {
 }
 
 .container .column {
-	float: left;
-	display: inline;
+	display: inline-block;
 }
 
 /* Nested Columns - remove margin/gutter from one column nested inside another column */
