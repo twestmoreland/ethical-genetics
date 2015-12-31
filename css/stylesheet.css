@@ -27,6 +27,7 @@ h1 {
 	font-size: 2em;
 	padding: 0px;
 	color: #DFDFDF;
+	margin-left: 0px !important;
 }
 h2 {
 	letter-spacing: .02em;
@@ -264,11 +265,9 @@ section.absolute.jumbotron {
 	height: 0;
 }
 .octagon-half {
-	width: 800px;
+	width: 1000px;
 	background: rgba(56, 56, 55, .6);
 	position: relative;
-	margin: 0;
-	padding: 180px 50px 130px 50px;
 }
 .octagon-half:before {
 	content: "";
@@ -278,12 +277,20 @@ section.absolute.jumbotron {
 	border-bottom: 200px solid rgba(56, 56, 55, 0);
 	border-left: 200px solid #262626;
 	border-right: 200px solid #262626;
-	width: 500px;
+	width: 600px;
 	height: 0;
 }
-.octagon div {
+.octagon-half img {
+	margin-top: 20px;
+	margin-bottom: 30px;
+	margin-left: 0px !important;
+}
+.octagon-half :not(.blockquote) {
+	margin-left: 6%;
+}
+.octagon-half div.arrow {
 	position: absolute;
-	top: -35px;
+	top: -55px;
 	left: 0px;
 	display: -webkit-box;
 	display: -moz-box;
@@ -293,8 +300,8 @@ section.absolute.jumbotron {
 	-webkit-justify-content: center;
 	justify-content: center;
 	width: 100%;
+	margin: 0px;
 }
-
 
 
 .hidden {
@@ -317,6 +324,33 @@ section.absolute.jumbotron {
 .color.gray {
 	color: #262626;
 }
+.numbered {
+	list-style-type: decimal;
+}
+.dotted, .dotted li {
+	list-style-type: disc;
+}
+
+.blockquote {
+	margin-bottom: 10px;
+}
+.blockquote.blue {
+	border-bottom: 2px solid #00B3F4;
+}
+.blockquote.green {
+	border-bottom: 2px solid #90FF5B;
+}
+.blockquote.orange {
+	border-bottom: 2px solid #FFA218;
+}
+.blockquote p {
+	font-size: 16px;
+	font-weight: bolder;
+	line-height: 25px;
+	letter-spacing: .7px;
+	color: #D8D8D8;
+	margin-left: 0px !important;
+}
 
 
 footer {
@@ -325,4 +359,5 @@ footer {
 footer hr {
 	width: 90%;
 	border: 1px solid #00B3F4;
+	margin-top: 40px;
 }
