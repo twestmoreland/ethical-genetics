@@ -28,6 +28,15 @@ h1 {
 	padding: 0px;
 	color: #DFDFDF;
 }
+h2 {
+	letter-spacing: .02em;
+}
+h3 {
+	letter-spacing: .02em;
+}
+h4 {
+	letter-spacing: .05em;
+}
 
 
 .flex-right {
@@ -38,6 +47,16 @@ h1 {
 	display: flex;
 	-webkit-justify-content: flex-end;
 	justify-content: flex-end;
+	width: 100%;
+}
+.flex-center {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: center;
+	justify-content: center;
 	width: 100%;
 }
 
@@ -178,17 +197,17 @@ section.absolute.jumbotron {
 	background: rgba(56, 56, 55, .6);
 	position: relative;
 	margin: 0;
-	padding: 130px 50px 130px 50px;
+	padding: 180px 50px 130px 50px;
 }
 .octagon:before {
 	content: "";
 	position: absolute;
 	top: 0;
 	left: 0;
-	border-bottom: 150px solid rgba(56, 56, 55, 0);
-	border-left: 150px solid #262626;
-	border-right: 150px solid #262626;
-	width: 425px;
+	border-bottom: 200px solid rgba(56, 56, 55, 0);
+	border-left: 200px solid #262626;
+	border-right: 200px solid #262626;
+	width: 325px;
 	height: 0;
 }
 .octagon:after {
@@ -196,10 +215,70 @@ section.absolute.jumbotron {
 	position: absolute;
 	bottom: 0;
 	left: 0;
+	border-top: 200px solid rgba(56, 56, 55, 0);
+	border-left: 200px solid #262626;
+	border-right: 200px solid #262626;
+	width: 325px;
+	height: 0;
+}
+.octagon div {
+	position: absolute;
+	top: -35px;
+	left: 0px;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: center;
+	justify-content: center;
+	width: 100%;
+}
+.octagon.small {
+	width: 475px;
+	background: rgba(56, 56, 55, .6);
+	position: relative;
+	margin: 0;
+	padding: 130px 50px 130px 50px;
+}
+.octagon.small:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-bottom: 150px solid rgba(56, 56, 55, 0);
+	border-left: 150px solid #262626;
+	border-right: 150px solid #262626;
+	width: 275px;
+	height: 0;
+}
+.octagon.small:after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
 	border-top: 150px solid rgba(56, 56, 55, 0);
 	border-left: 150px solid #262626;
 	border-right: 150px solid #262626;
-	width: 425px;
+	width: 275px;
+	height: 0;
+}
+.octagon-half {
+	width: 800px;
+	background: rgba(56, 56, 55, .6);
+	position: relative;
+	margin: 0;
+	padding: 180px 50px 130px 50px;
+}
+.octagon-half:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-bottom: 200px solid rgba(56, 56, 55, 0);
+	border-left: 200px solid #262626;
+	border-right: 200px solid #262626;
+	width: 500px;
 	height: 0;
 }
 .octagon div {
@@ -228,6 +307,9 @@ section.absolute.jumbotron {
 .absolute {
 	position: absolute;
 	z-index: 1;
+}
+.floatright {
+	float: right;
 }
 .color.white {
 	color: #fff;
