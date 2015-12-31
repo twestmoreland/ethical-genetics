@@ -10,17 +10,12 @@ body {
 	padding: 0;
 }
 
-.container .column {
-	display: inline-block;
+.container .column-float {
+	display: inline;
+	float: left;
 }
 
 /* Nested Columns - remove margin/gutter from one column nested inside another column */
-.column.noleft {
-	margin-left: 0;
-}
-.column.noright {
-	margin-right: 0;
-}
 
 /* Grid */
 .container .one.column				{ width: 2%;}
@@ -178,6 +173,160 @@ body {
 .container .append-49.column		{ margin-right: 98%;}
 .container .append-50.column		{ margin-right: 100%;}
 
+.container .one.column-float				{ width: 2%;}
+.container .two.column-float				{ width: 4%;}
+.container .three.column-float 			{ width: 6%;}
+.container .four.column-float 			{ width: 8%;}
+.container .five.column-float 			{ width: 10%;}
+.container .six.column-float				{ width: 12%;}
+.container .seven.column-float 			{ width: 14%;}
+.container .eight.column-float 			{ width: 16%;}
+.container .nine.column-float 			{ width: 18%;}
+.container .ten.column-float				{ width: 20%;}
+.container .eleven.column-float 			{ width: 22%;}
+.container .twelve.column-float 			{ width: 24%;}
+.container .thirteen.column-float			{ width: 26%;}
+.container .fourteen.column-float			{ width: 28%;}
+.container .fifteen.column-float			{ width: 30%;}
+.container .sixteen.column-float 			{ width: 32%;}
+.container .seventeen.column-float 		{ width: 34%;}
+.container .eighteen.column-float			{ width: 36%;}
+.container .nineteen.column-float			{ width: 38%;}
+.container .twenty.column-float			{ width: 40%;}
+.container .twenty-one.column-float 		{ width: 42%;}
+.container .twenty-two.column-float 		{ width: 44%;}
+.container .twenty-three.column-float		{ width: 46%;}
+.container .twenty-four.column-float		{ width: 48%;}
+.container .twenty-five.column-float		{ width: 50%;}
+.container .twenty-six.column-float 		{ width: 52%;}
+.container .twenty-seven.column-float 	{ width: 54%;}
+.container .twenty-eight.column-float		{ width: 56%;}
+.container .twenty-nine.column-float		{ width: 58%;}
+.container .thirty.column-float			{ width: 60%;}
+.container .thirty-one.column-float 		{ width: 62%;}
+.container .thirty-two.column-float 		{ width: 64%;}
+.container .thirty-three.column-float		{ width: 66%;}
+.container .thirty-four.column-float		{ width: 68%;}
+.container .thirty-five.column-float		{ width: 70%;}
+.container .thirty-six.column-float 		{ width: 72%;}
+.container .thirty-seven.column-float 	{ width: 74%;}
+.container .thirty-eight.column-float		{ width: 76%;}
+.container .thirty-nine.column-float		{ width: 78%;}
+.container .fourty.column-float			{ width: 80%;}
+.container .fourty-one.column-float 		{ width: 82%;}
+.container .fourty-two.column-float 		{ width: 84%;}
+.container .fourty-three.column-float		{ width: 86%;}
+.container .fourty-four.column-float		{ width: 88%;}
+.container .fourty-five.column-float		{ width: 90%;}
+.container .fourty-six.column-float 		{ width: 92%;}
+.container .fourty-seven.column-float 	{ width: 94%;}
+.container .fourty-eight.column-float		{ width: 96%;}
+.container .fourty-nine.column-float		{ width: 98%;}
+.container .fifty.column-float			{ width: 100%;}
+
+/* Add Space (push) before a column-float. NOT Nested*/
+.container .push-1.column-float		{ margin-left: 2%;}
+.container .push-2.column-float		{ margin-left: 4%;}
+.container .push-3.column-float 		{ margin-left: 6%;}
+.container .push-4.column-float 		{ margin-left: 8%;}
+.container .push-5.column-float 		{ margin-left: 10%;}
+.container .push-6.column-float		{ margin-left: 12%;}
+.container .push-7.column-float 		{ margin-left: 14%;}
+.container .push-8.column-float 		{ margin-left: 16%;}
+.container .push-9.column-float 		{ margin-left: 18%;}
+.container .push-10.column-float		{ margin-left: 20%;}
+.container .push-11.column-float 		{ margin-left: 22%;}
+.container .push-12.column-float 		{ margin-left: 24%;}
+.container .push-13.column-float		{ margin-left: 26%;}
+.container .push-14.column-float		{ margin-left: 28%;}
+.container .push-15.column-float		{ margin-left: 30%;}
+.container .push-16.column-float 		{ margin-left: 32%;}
+.container .push-17.column-float 		{ margin-left: 34%;}
+.container .push-18.column-float		{ margin-left: 36%;}
+.container .push-19.column-float		{ margin-left: 38%;}
+.container .push-20.column-float		{ margin-left: 40%;}
+.container .push-21.column-float 		{ margin-left: 42%;}
+.container .push-22.column-float 		{ margin-left: 44%;}
+.container .push-23.column-float		{ margin-left: 46%;}
+.container .push-24.column-float		{ margin-left: 48%;}
+.container .push-25.column-float		{ margin-left: 50%;}
+.container .push-26.column-float 		{ margin-left: 52%;}
+.container .push-27.column-float 		{ margin-left: 54%;}
+.container .push-28.column-float		{ margin-left: 56%;}
+.container .push-29.column-float		{ margin-left: 58%;}
+.container .push-30.column-float		{ margin-left: 60%;}
+.container .push-31.column-float 		{ margin-left: 62%;}
+.container .push-32.column-float 		{ margin-left: 64%;}
+.container .push-33.column-float		{ margin-left: 66%;}
+.container .push-34.column-float		{ margin-left: 68%;}
+.container .push-35.column-float		{ margin-left: 70%;}
+.container .push-36.column-float 		{ margin-left: 72%;}
+.container .push-37.column-float 		{ margin-left: 74%;}
+.container .push-38.column-float		{ margin-left: 76%;}
+.container .push-39.column-float		{ margin-left: 78%;}
+.container .push-40.column-float		{ margin-left: 80%;}
+.container .push-41.column-float 		{ margin-left: 82%;}
+.container .push-42.column-float 		{ margin-left: 84%;}
+.container .push-43.column-float		{ margin-left: 86%;}
+.container .push-44.column-float		{ margin-left: 88%;}
+.container .push-45.column-float		{ margin-left: 90%;}
+.container .push-46.column-float 		{ margin-left: 92%;}
+.container .push-47.column-float 		{ margin-left: 94%;}
+.container .push-48.column-float		{ margin-left: 96%;}
+.container .push-49.column-float		{ margin-left: 98%;}
+.container .push-50.column-float		{ margin-left: 100%;}
+
+/* Add Space (append) after a column-float NOT nested */
+.container .append-1.column-float			{ margin-right: 2%;}
+.container .append-2.column-float			{ margin-right: 4%;}
+.container .append-3.column-float 		{ margin-right: 6%;}
+.container .append-4.column-float 		{ margin-right: 8%;}
+.container .append-5.column-float 		{ margin-right: 10%;}
+.container .append-6.column-float			{ margin-right: 12%;}
+.container .append-7.column-float 		{ margin-right: 14%;}
+.container .append-8.column-float 		{ margin-right: 16%;}
+.container .append-9.column-float 		{ margin-right: 18%;}
+.container .append-10.column-float		{ margin-right: 20%;}
+.container .append-11.column-float 		{ margin-right: 22%;}
+.container .append-12.column-float 		{ margin-right: 24%;}
+.container .append-13.column-float		{ margin-right: 26%;}
+.container .append-14.column-float		{ margin-right: 28%;}
+.container .append-15.column-float		{ margin-right: 30%;}
+.container .append-16.column-float 		{ margin-right: 32%;}
+.container .append-17.column-float 		{ margin-right: 34%;}
+.container .append-18.column-float		{ margin-right: 36%;}
+.container .append-19.column-float		{ margin-right: 38%;}
+.container .append-20.column-float		{ margin-right: 40%;}
+.container .append-21.column-float 		{ margin-right: 42%;}
+.container .append-22.column-float 		{ margin-right: 44%;}
+.container .append-23.column-float		{ margin-right: 46%;}
+.container .append-24.column-float		{ margin-right: 48%;}
+.container .append-25.column-float		{ margin-right: 50%;}
+.container .append-26.column-float 		{ margin-right: 52%;}
+.container .append-27.column-float 		{ margin-right: 54%;}
+.container .append-28.column-float		{ margin-right: 56%;}
+.container .append-29.column-float		{ margin-right: 58%;}
+.container .append-30.column-float		{ margin-right: 60%;}
+.container .append-31.column-float 		{ margin-right: 62%;}
+.container .append-32.column-float 		{ margin-right: 64%;}
+.container .append-33.column-float		{ margin-right: 66%;}
+.container .append-34.column-float		{ margin-right: 68%;}
+.container .append-35.column-float		{ margin-right: 70%;}
+.container .append-36.column-float 		{ margin-right: 72%;}
+.container .append-37.column-float 		{ margin-right: 74%;}
+.container .append-38.column-float		{ margin-right: 76%;}
+.container .append-39.column-float		{ margin-right: 78%;}
+.container .append-40.column-float		{ margin-right: 80%;}
+.container .append-41.column-float 		{ margin-right: 82%;}
+.container .append-42.column-float 		{ margin-right: 84%;}
+.container .append-43.column-float		{ margin-right: 86%;}
+.container .append-44.column-float		{ margin-right: 88%;}
+.container .append-45.column-float		{ margin-right: 90%;}
+.container .append-46.column-float 		{ margin-right: 92%;}
+.container .append-47.column-float 		{ margin-right: 94%;}
+.container .append-48.column-float		{ margin-right: 96%;}
+.container .append-49.column-float		{ margin-right: 98%;}
+.container .append-50.column-float		{ margin-right: 100%;}
 /* Use this clear class on Break elements */
 
 .clear {
@@ -189,11 +338,15 @@ body {
 	height: 0;
 }
 
+/*--------------------------ROW--------------------------*/
 .container .row {
 	display: block;
 	margin-bottom: 20px;
 }
 
+
+
+/*--------------------------ROW HEIGHT--------------------------*/
 .container .row-1.row 		{height: 20px;}
 .container .row-2.row 		{height: 40px;}
 .container .row-3.row 		{height: 60px;}
@@ -206,15 +359,37 @@ body {
 .container .row-10.row 		{height: 200px;}
 .container .row-11.row 		{height: 220px;}
 .container .row-12.row 		{height: 240px;}
-.container .row-13.row 	{height: 260px;}
-.container .row-14.row 	{height: 280px;}
-.container .row-15.row 	{height: 300px;}
-.container .row-16.row 	{height: 320px;}
-.container .row-17.row 	{height: 340px;}
-.container .row-18.row	{height: 360px;}
-.container .row-19.row 	{height: 380px;}
+.container .row-13.row 		{height: 260px;}
+.container .row-14.row 		{height: 280px;}
+.container .row-15.row 		{height: 300px;}
+.container .row-16.row 		{height: 320px;}
+.container .row-17.row 		{height: 340px;}
+.container .row-18.row		{height: 360px;}
+.container .row-19.row 		{height: 380px;}
 .container .row-20.row 		{height: 400px;}
+.container .row-21.row 		{height: 420px;}
+.container .row-22.row 		{height: 440px;}
+.container .row-23.row		{height: 460px;}
+.container .row-24.row 		{height: 480px;}
+.container .row-25.row 		{height: 500px;}
+.container .row-26.row 		{height: 520px;}
+.container .row-27.row 		{height: 540px;}
+.container .row-28.row		{height: 560px;}
+.container .row-29.row 		{height: 580px;}
+.container .row-30.row 		{height: 600px;}
+.container .row-31.row 		{height: 620px;}
+.container .row-32.row 		{height: 640px;}
+.container .row-33.row		{height: 660px;}
+.container .row-34.row 		{height: 680px;}
+.container .row-35.row 		{height: 700px;}
+.container .row-36.row 		{height: 720px;}
+.container .row-37.row 		{height: 740px;}
+.container .row-38.row		{height: 760px;}
+.container .row-39.row 		{height: 780px;}
+.container .row-40.row 		{height: 800px;}
 
+
+/*--------------------------ROW MARGIN TOP--------------------------*/
 .container .down-1.row		{margin-top: 20px;}
 .container .down-2.row 		{margin-top: 40px;}
 .container .down-3.row 		{margin-top: 60px;}
@@ -255,3 +430,89 @@ body {
 .container .down-38.row		{margin-top: 760px;}
 .container .down-39.row 	{margin-top: 780px;}
 .container .down-40.row 	{margin-top: 800px;}
+
+/*--------------------------ROW MARGIN RIGHT--------------------------*/
+.container .right-0.row		{margin-right: 0px !important;}
+.container .right-1.row		{margin-right: 20px;}
+.container .right-2.row 	{margin-right: 40px;}
+.container .right-3.row 	{margin-right: 60px;}
+.container .right-4.row 	{margin-right: 80px;}
+.container .right-5.row 	{margin-right: 100px;}
+.container .right-6.row 	{margin-right: 120px;}
+.container .right-7.row 	{margin-right: 140px;}
+.container .right-8.row 	{margin-right: 160px;}
+.container .right-9.row 	{margin-right: 180px;}
+.container .right-10.row 	{margin-right: 200px;}
+.container .right-11.row 	{margin-right: 220px;}
+.container .right-12.row 	{margin-right: 240px;}
+.container .right-13.row 	{margin-right: 260px;}
+.container .right-14.row 	{margin-right: 280px;}
+.container .right-15.row 	{margin-right: 300px;}
+.container .right-16.row 	{margin-right: 320px;}
+.container .right-17.row 	{margin-right: 340px;}
+.container .right-18.row	{margin-right: 360px;}
+.container .right-19.row 	{margin-right: 380px;}
+.container .right-20.row 	{margin-right: 400px;}
+.container .right-21.row	{margin-right: 420px;}
+.container .right-22.row 	{margin-right: 440px;}
+.container .right-23.row 	{margin-right: 460px;}
+.container .right-24.row 	{margin-right: 480px;}
+.container .right-25.row 	{margin-right: 500px;}
+.container .right-26.row 	{margin-right: 520px;}
+.container .right-27.row 	{margin-right: 540px;}
+.container .right-28.row 	{margin-right: 560px;}
+.container .right-29.row 	{margin-right: 580px;}
+.container .right-30.row 	{margin-right: 600px;}
+.container .right-31.row 	{margin-right: 620px;}
+.container .right-32.row 	{margin-right: 640px;}
+.container .right-33.row 	{margin-right: 660px;}
+.container .right-34.row 	{margin-right: 680px;}
+.container .right-35.row 	{margin-right: 700px;}
+.container .right-36.row 	{margin-right: 720px;}
+.container .right-37.row 	{margin-right: 740px;}
+.container .right-38.row	{margin-right: 760px;}
+.container .right-39.row 	{margin-right: 780px;}
+.container .right-40.row 	{margin-right: 800px;}
+
+
+.container .bottom-0.row	{margin-bottom: 0px !important;}
+.container .bottom-1.row	{margin-bottom: 20px;}
+.container .bottom-2.row 	{margin-bottom: 40px;}
+.container .bottom-3.row 	{margin-bottom: 60px;}
+.container .bottom-4.row 	{margin-bottom: 80px;}
+.container .bottom-5.row 	{margin-bottom: 100px;}
+.container .bottom-6.row 	{margin-bottom: 120px;}
+.container .bottom-7.row 	{margin-bottom: 140px;}
+.container .bottom-8.row 	{margin-bottom: 160px;}
+.container .bottom-9.row 	{margin-bottom: 180px;}
+.container .bottom-10.row 	{margin-bottom: 200px;}
+.container .bottom-11.row 	{margin-bottom: 220px;}
+.container .bottom-12.row 	{margin-bottom: 240px;}
+.container .bottom-13.row 	{margin-bottom: 260px;}
+.container .bottom-14.row 	{margin-bottom: 280px;}
+.container .bottom-15.row 	{margin-bottom: 300px;}
+.container .bottom-16.row 	{margin-bottom: 320px;}
+.container .bottom-17.row 	{margin-bottom: 340px;}
+.container .bottom-18.row	{margin-bottom: 360px;}
+.container .bottom-19.row 	{margin-bottom: 380px;}
+.container .bottom-20.row 	{margin-bottom: 400px;}
+.container .bottom-21.row	{margin-bottom: 420px;}
+.container .bottom-22.row 	{margin-bottom: 440px;}
+.container .bottom-23.row 	{margin-bottom: 460px;}
+.container .bottom-24.row 	{margin-bottom: 480px;}
+.container .bottom-25.row 	{margin-bottom: 500px;}
+.container .bottom-26.row 	{margin-bottom: 520px;}
+.container .bottom-27.row 	{margin-bottom: 540px;}
+.container .bottom-28.row 	{margin-bottom: 560px;}
+.container .bottom-29.row 	{margin-bottom: 580px;}
+.container .bottom-30.row 	{margin-bottom: 600px;}
+.container .bottom-31.row 	{margin-bottom: 620px;}
+.container .bottom-32.row 	{margin-bottom: 640px;}
+.container .bottom-33.row 	{margin-bottom: 660px;}
+.container .bottom-34.row 	{margin-bottom: 680px;}
+.container .bottom-35.row 	{margin-bottom: 700px;}
+.container .bottom-36.row 	{margin-bottom: 720px;}
+.container .bottom-37.row 	{margin-bottom: 740px;}
+.container .bottom-38.row	{margin-bottom: 760px;}
+.container .bottom-39.row 	{margin-bottom: 780px;}
+.container .bottom-40.row 	{margin-bottom: 800px;}

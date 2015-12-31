@@ -1,9 +1,11 @@
 body {
 	font-family: Lato, sans-serif;
-	color: #DFDFDF;
+	color: #B1B1B1;
 	height: auto;
 	margin-top: 0px;
 	padding-top: 0px;
+	font-weight: lighter;
+	background-color: #262626;
 }
 a {
 	color: #D8D8D8;
@@ -14,6 +16,23 @@ a:hover {
 	color: #B1B1B1;
 	border-bottom: 2px solid #FFA218;
 	transition-duration: .3s;
+}
+p, li {
+	font-size: 1em;
+	letter-spacing: .06em;
+	line-height: 1.6em;
+}
+h1 {
+	font-size: 2em;
+	padding: 0px;
+	color: #DFDFDF;
+}
+
+
+.flex-right {
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
 }
 
 
@@ -26,6 +45,9 @@ nav {
 	display: flex;
 	background-color: rgba(56, 56, 55, .9);
 	height: 90px;
+	width: 100%;
+	position: absolute;
+	z-index: 5;
 }
 nav ul li {
 	display: inline-block;
@@ -88,12 +110,84 @@ nav ul.submenu {
 	transition-duration: .3s;
 }
 
+
+/*--------------------------JUMBOTRON--------------------------*/
+.jumbotron {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+	height: 100%;
+	width: 100%;
+}
+.jumbotron p {
+	font-size: 1.2em;
+	text-align: center;
+	color: #fff;
+}
+section.absolute.jumbotron {
+	position: absolute;
+	z-index: 0;
+}
+.jumbotron-arrow{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-start;
+	width: 100%;
+	height: 100%;
+}
+
+
+/*--------------------------OCTAGON--------------------------*/
+.octagon {
+	width: 625px;
+	background: rgba(56, 56, 55, .6);
+	position: relative;
+	margin: 0;
+	padding: 130px 50px 130px 50px;
+}
+.octagon:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-bottom: 150px solid rgba(56, 56, 55, 0);
+	border-left: 150px solid #262626;
+	border-right: 150px solid #262626;
+	width: 425px;
+	height: 0;
+}
+.octagon:after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	border-top: 150px solid rgba(56, 56, 55, 0);
+	border-left: 150px solid #262626;
+	border-right: 150px solid #262626;
+	width: 425px;
+	height: 0;
+}
+.octagon div {
+	position: absolute;
+	top: -35px;
+	left: 0px;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+
+
 .hidden {
 	display: none !important;
 }
 .relative {
 	position: relative;
+	z-index: 0;
 }
 .absolute {
 	position: absolute;
+	z-index: 1;
 }
