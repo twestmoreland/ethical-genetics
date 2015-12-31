@@ -280,12 +280,12 @@ section.absolute.jumbotron {
 	width: 600px;
 	height: 0;
 }
-.octagon-half img {
+.octagon-half img.bodyimg {
 	margin-top: 20px;
 	margin-bottom: 30px;
 	margin-left: 0px !important;
 }
-.octagon-half :not(.blockquote) {
+.octagon-half :not(.blockquote):not(.exempt) {
 	margin-left: 6%;
 }
 .octagon-half div.arrow {
