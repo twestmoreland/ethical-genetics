@@ -72,10 +72,8 @@ nav ul li.logo {
 	justify-content: flex-start;
 	width: 100%;
 }
-nav ul li p {
+nav ul li h1 {
 	margin-left: 10px;
-	font-size: 30px;
-	font-weight: bolder;
 }
 nav ul {
 	display: -webkit-box;
@@ -130,6 +128,36 @@ nav ul.submenu {
 	justify-content: center;
 	-webkit-align-items: flex-end;
 	align-items: flex-end;
+	height: 100%;
+	width: 100%;
+}
+.jumbotron.title {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	-webkit-justify-content: flex-end;
+	justify-content: flex-end;
+	-webkit-align-items: flex-end;
+	align-items: flex-end;
+	height: 100%;
+	width: 100%;
+}
+.jumbotron.caption {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	-webkit-justify-content: flex-start;
+	justify-content: flex-start;
+	-webkit-align-items: center;
+	align-items: center;
 	height: 100%;
 	width: 100%;
 }
@@ -200,6 +228,12 @@ section.absolute.jumbotron {
 .absolute {
 	position: absolute;
 	z-index: 1;
+}
+.color.white {
+	color: #fff;
+}
+.color.gray {
+	color: #262626;
 }
 
 
