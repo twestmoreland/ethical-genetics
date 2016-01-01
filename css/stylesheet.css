@@ -332,6 +332,11 @@ section.absolute.jumbotron {
 .dotted, .dotted li {
 	list-style-type: disc;
 }
+.text-center {
+	text-align: center;
+}
+
+
 
 .blockquote {
 	margin-bottom: 10px;
