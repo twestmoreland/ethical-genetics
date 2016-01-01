@@ -9,4 +9,14 @@ $(document).ready(function(){
 	function closeSubMenu() {
 		$(this).find('ul').addClass('hidden')
 	};
+
+	$('.button.clear').click(function(){
+		$('input, textarea').val('');
+		$('.pop-up').removeClass('hidden');
+		$('.lightbox').removeClass('hidden');
+	});
+	$('.button.ok').click(function(){
+		$('.pop-up').addClass('hidden');
+		$('.lightbox').addClass('hidden');
+	});
 });

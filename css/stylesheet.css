@@ -1,3 +1,4 @@
+/*--------------------------BASE STYLING--------------------------*/
 body {
 	font-family: Lato, sans-serif;
 	color: #B1B1B1;
@@ -37,28 +38,6 @@ h3 {
 }
 h4 {
 	letter-spacing: .05em;
-}
-
-
-.flex-right {
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-	-webkit-justify-content: flex-end;
-	justify-content: flex-end;
-	width: 100%;
-}
-.flex-center {
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-	-webkit-justify-content: center;
-	justify-content: center;
-	width: 100%;
 }
 
 
@@ -235,6 +214,9 @@ section.absolute.jumbotron {
 	justify-content: center;
 	width: 100%;
 }
+
+
+/*--------------------------OCTAGON SMALL--------------------------*/
 .octagon.small {
 	width: 475px;
 	background: rgba(56, 56, 55, .6);
@@ -264,6 +246,9 @@ section.absolute.jumbotron {
 	width: 275px;
 	height: 0;
 }
+
+
+/*--------------------------OCTAGON-HALF--------------------------*/
 .octagon-half {
 	width: 1000px;
 	background: rgba(56, 56, 55, .6);
@@ -306,9 +291,123 @@ section.absolute.jumbotron {
 	margin-left: 0px !important;
 }
 
+
+/*--------------------------FORM--------------------------*/
+input[type="text"] {
+	background: #262626;
+	border: none;
+	height: 30px;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	border-radius: 3px;
+	color: #B1B1B1;
+}
+textarea {
+	background: #262626;
+	border: none;
+	margin-bottom: 10px;
+	padding: 10px 0px 0px 10px;
+	border-radius: 3px;
+	color: #B1B1B1;
+}
+form .button {
+	background: #B1B1B1;
+	border-radius: 3px;
+	height: 25px;
+	width: 100px;
+	color: #262626;
+	font-weight: bolder;
+	text-align: center;
+	padding-top: 3px;
+	cursor: pointer;
+	transition-duration: .3s;
+	letter-spacing: .5px;
+}
+form .button:hover {
+	background: #262626;
+	color: #90FF5B;
+	transition-duration: .3s;
+}
+
+
+/*--------------------------FOOTER--------------------------*/
+footer {
+	text-align: center;
+}
+footer hr {
+	width: 90%;
+	border: 1px solid #00B3F4;
+	margin-top: 40px;
+}
+
+
+/*--------------------------BUTTON--------------------------*/
+.button {
+	background: #B1B1B1;
+	border-radius: 3px;
+	height: 25px;
+	color: #262626;
+	font-weight: bolder;
+	text-align: center;
+	padding-top: 3px;
+	cursor: pointer;
+	transition-duration: .3s;
+	letter-spacing: .5px;
+}
+.button.blue:hover {
+	background: #262626;
+	color: #00B3F4;
+	transition-duration: .3s;
+}
+
+
+/*--------------------------POP UP--------------------------*/
+.pop-up {
+	position: absolute;
+	top: -20px;
+	margin-left: 0px;
+	z-index: 2;
+	background: rgba(56, 56, 55, .9);
+	border-radius: 3px;
+}
+.lightbox {
+	background: rgba(0, 0, 0, .7);
+	position: fixed;
+	top: 0;
+	left: -6%;
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+}
+
+
+/*--------------------------DISPLAY--------------------------*/
 .hidden {
 	display: none !important;
 }
+.flex-right {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: flex-end;
+	justify-content: flex-end;
+	width: 100%;
+}
+.flex-center {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: center;
+	justify-content: center;
+	width: 100%;
+}
+
+
+/*--------------------------POSITION--------------------------*/
 .relative {
 	position: relative;
 	z-index: 0;
@@ -320,24 +419,22 @@ section.absolute.jumbotron {
 .floatright {
 	float: right;
 }
+.text-center {
+	text-align: center;
+}
+
+
+/*--------------------------COLOR--------------------------*/
 .color.white {
 	color: #fff;
 }
 .color.gray {
 	color: #262626;
 }
-.numbered {
-	list-style-type: decimal;
-}
-.dotted, .dotted li {
-	list-style-type: disc;
-}
-.text-center {
-	text-align: center;
-}
 
 
 
+/*--------------------------BLOCKQUOTE--------------------------*/
 .blockquote {
 	margin-bottom: 10px;
 }
@@ -357,14 +454,4 @@ section.absolute.jumbotron {
 	letter-spacing: .7px;
 	color: #D8D8D8;
 	margin-left: 0px !important;
-}
-
-
-footer {
-	text-align: center;
-}
-footer hr {
-	width: 90%;
-	border: 1px solid #00B3F4;
-	margin-top: 40px;
 }

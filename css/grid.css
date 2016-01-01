@@ -329,15 +329,6 @@ body {
 .container .append-50.column-float		{ margin-right: 100%;}
 /* Use this clear class on Break elements */
 
-.clear {
-	clear: both;
-	display: block;
-	overflow: hidden;
-	visibility: hidden;
-	width: 0;
-	height: 0;
-}
-
 /*--------------------------ROW--------------------------*/
 .container .row {
 	display: block;

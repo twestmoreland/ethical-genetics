@@ -89,23 +89,26 @@
 
 				<img src="images/rule.png" alt="rule" class="column-float fourty-two push-1">
 
-				<section class="column-float push-4 append-4 row bottom-2">
-					<h1>Submit Your Own Article</h1>
-					<div class="column-float fourty push-4">
-						<p class="column-float push-15">Have an idea for an article? Send it our way!</p>
-						<div class="column-float fifty">
-							<div class="column-float ten push-2">
-								<p>Name:</p>
-								<p>Email:</p>
-								<p>Article:</p>
-							</div>
-							<form class="column-float thirty">
-								<input name="name" type="text" class="column-float fifty row down-1">
-								<input name="email" type="text" class="column-float fifty">
-								<textarea name="article" cols="20" rows="5" class="column-float fifty row down-1">Put article text here...</textarea>
-								<input name="submit" type="submit">
-							</form>
+				<section class="column-float push-4 append-4 row bottom-2 relative">
+					<div class="pop-up hidden exempt column-float thirty push-10 append-10">
+						<p class="exempt column-float push-2 append-2">Your article has been submitted. We'll get back to you as soon as possible and let you know if you&rsquo;re the lucky winner!</p>
+						<div class="button blue ok exempt column-float ten push-20 append-20 row bottom-1">
+							ok
 						</div>
+					</div>
+					
+					<div class="lightbox hidden"></div>
+					<h1>Submit Your Own Article</h1>
+					<p>Have an idea for an article? Send it our way! We'll review it and the winner for that week will have their article posted to the blog.</p>
+					<div class="flex-center exempt">
+						<form class="column twenty exempt">
+							<input name="name" type="text" placeholder="Full Name" class="column fifty exempt">
+							<input name="email" type="text" placeholder="Email" class="column fifty exempt">
+							<textarea name="article" placeholder="Your article..." cols="20" rows="5" class="column fifty exempt"></textarea>
+							<div class="button clear exempt">
+								Submit
+							</div>
+						</form>
 					</div>
 				</section>
 			</div>
